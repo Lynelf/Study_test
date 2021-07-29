@@ -11,11 +11,11 @@ col0 = table.col_values(0)   #以列为单位
 print(col0)
 
 
-# 获取一共有多少行
-r = table.nrows
-# 获取一共有多少列
-c = table.ncols
-print(r,c)
+# # 获取一共有多少行
+# r = table.nrows
+# # 获取一共有多少列
+# c = table.ncols
+# print(r,c)
 
 # print("----------------------------------------")
 # for i in range(r):
