@@ -98,9 +98,23 @@ print(2>3)
 #     print("a的值",a)
 #     a = a +1
 
+# 红绿灯例子-----------------------------------------------------
+# adict = {"红灯":30,"绿灯":15,"黄灯":3}
+# for i in adict:
+#     for j in range(adict[i]):
+#         print("{}已经运行{}秒了".format(i,j))
+#         time.sleep(1)
 
-adict = {"红灯":30,"绿灯":15,"黄灯":3}
-for i in adict:
-    for j in range(adict[i]):
-        print("{}已经运行{}秒了".format(i,j))
-        time.sleep(1)
+
+# a = ["啦啦","哈哈","嘻嘻","yaya","一一"]
+# for i in range(0,5,2):
+#     print(a[i])
+
+
+
+now_time = time.strftime("%Y-%m-%d %H:%M:%S")
+print(now_time)
+
+
+
+
