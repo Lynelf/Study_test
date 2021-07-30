@@ -1,0 +1,60 @@
+{
+  "326165312940159034d864e897b8cef2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d18729ea5c7ea918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627440679754,
+        "stop" : 1627440679755,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e64bcefaf5f0eff0da866581c266b396" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c586c780b456c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627440679766,
+        "stop" : 1627440679798,
+        "duration" : 32
+      }
+    } ]
+  },
+  "df3f487452126d1d6efef76b32d53ffe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f87d40e3875aaa32",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='132.232.44.158', port=5000): Max retries exceeded with url: /userLogin/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026E311A8AC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "time" : {
+        "start" : 1627440679805,
+        "stop" : 1627440700852,
+        "duration" : 21047
+      }
+    } ]
+  }
+}
