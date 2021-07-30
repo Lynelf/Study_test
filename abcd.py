@@ -111,10 +111,13 @@ print(2>3)
 #     print(a[i])
 
 
+# # 现在的时间----------------------------------
+# now_time = time.strftime("%Y-%m-%d %H:%M:%S")
+# print(now_time)
 
-now_time = time.strftime("%Y-%m-%d %H:%M:%S")
-print(now_time)
-
-
+# 引用方法--------------------------------------
+import fangfaFengz
+jia = fangfaFengz.add(3,77788)
+print(jia)
 
 
