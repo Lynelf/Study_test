@@ -2,7 +2,7 @@ from os import name
 import requests
 from exceltools import read_excel
 
-path = "猫宁商城的接口测试用例+1203.xlsx"
+path = "lux的接口测试用例+1203.xlsx"
 sheet_name = "登录模块"
 
 res = read_excel(excel_path=path,sheet_name=sheet_name)

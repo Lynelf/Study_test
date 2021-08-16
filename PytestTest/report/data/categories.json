@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='132.232.44.158', port=5000): Max retries exceeded with url: /userLogin/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026E311A8AC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /morning/getAllGoods (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012496DF5E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
       "children" : [ {
-        "name" : "test_demo3_shibai",
-        "uid" : "f87d40e3875aaa32",
-        "parentUid" : "df6706a80fcb442b746a67bdb4934298",
+        "name" : "test_huoqu02_success",
+        "uid" : "80b2b372ec63c053",
+        "parentUid" : "dc482774bb056c592fcb9264c7b7202b",
         "status" : "broken",
         "time" : {
-          "start" : 1627440679805,
-          "stop" : 1627440700852,
-          "duration" : 21047
+          "start" : 1628081341567,
+          "stop" : 1628081343613,
+          "duration" : 2046
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "df6706a80fcb442b746a67bdb4934298"
+      "uid" : "dc482774bb056c592fcb9264c7b7202b"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='132.232.44.158', port=5000): Max retries exceeded with url: /userLogin/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012496FE4748>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "children" : [ {
+        "name" : "test_denglu03_shibai",
+        "uid" : "85360d09008d9f4a",
+        "parentUid" : "5bffbcbcaeddcbb90f9d579897efefe2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628081343930,
+          "stop" : 1628081364991,
+          "duration" : 21061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bffbcbcaeddcbb90f9d579897efefe2"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

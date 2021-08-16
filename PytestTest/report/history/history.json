@@ -1,43 +1,5 @@
 {
-  "326165312940159034d864e897b8cef2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d18729ea5c7ea918",
-      "status" : "passed",
-      "time" : {
-        "start" : 1627440679754,
-        "stop" : 1627440679755,
-        "duration" : 1
-      }
-    } ]
-  },
-  "e64bcefaf5f0eff0da866581c266b396" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9c586c780b456c95",
-      "status" : "passed",
-      "time" : {
-        "start" : 1627440679766,
-        "stop" : 1627440679798,
-        "duration" : 32
-      }
-    } ]
-  },
-  "df3f487452126d1d6efef76b32d53ffe" : {
+  "7e9c3b39db9c0b9c5948999998fb7521" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -47,13 +9,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f87d40e3875aaa32",
+      "uid" : "80b2b372ec63c053",
       "status" : "broken",
-      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='132.232.44.158', port=5000): Max retries exceeded with url: /userLogin/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026E311A8AC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /morning/getAllGoods (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012496DF5E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
       "time" : {
-        "start" : 1627440679805,
-        "stop" : 1627440700852,
-        "duration" : 21047
+        "start" : 1628081341567,
+        "stop" : 1628081343613,
+        "duration" : 2046
+      }
+    } ]
+  },
+  "f775c0bea513fda465c8f00875b2da93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85360d09008d9f4a",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='132.232.44.158', port=5000): Max retries exceeded with url: /userLogin/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012496FE4748>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))",
+      "time" : {
+        "start" : 1628081343930,
+        "stop" : 1628081364991,
+        "duration" : 21061
+      }
+    } ]
+  },
+  "85631da288bcf3df1ea6fb24f554b999" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd579cc27f6a8771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628081341554,
+        "stop" : 1628081341559,
+        "duration" : 5
       }
     } ]
   }
